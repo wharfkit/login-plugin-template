@@ -1,0 +1,4 @@
+{
+    "beforelogin": "undefined beforeSign hook called from plugin template",
+    "afterlogin": "undefined afterSign hook called from plugin template"
+}
