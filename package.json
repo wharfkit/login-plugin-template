@@ -1,7 +1,7 @@
 {
     "name": "@wharfkit/login-plugin-template",
     "description": "A template to create a `LoginPlugin` for use with @wharfkit/session.",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "homepage": "https://github.com/wharfkit/login-plugin-template",
     "license": "BSD-3-Clause",
     "main": "lib/login-plugin-template.js",
@@ -19,7 +19,7 @@
         "tslib": "^2.1.0"
     },
     "peerDependencies": {
-        "@wharfkit/session": "^0.5.0"
+        "@wharfkit/session": "^1.0.0"
     },
     "devDependencies": {
         "@rollup/plugin-alias": "^3.1.4",
@@ -34,8 +34,9 @@
         "@types/node": "^18.7.18",
         "@typescript-eslint/eslint-plugin": "^5.20.0",
         "@typescript-eslint/parser": "^5.20.0",
-        "@wharfkit/session": "^0.5.0",
-        "@wharfkit/wallet-plugin-privatekey": "^0.5.0",
+        "@wharfkit/mock-data": "^1.0.2",
+        "@wharfkit/session": "^1.0.0",
+        "@wharfkit/wallet-plugin-privatekey": "^1.0.0",
         "chai": "^4.3.4",
         "eslint": "^8.13.0",
         "eslint-config-prettier": "^8.1.0",
