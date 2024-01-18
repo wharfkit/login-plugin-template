@@ -5,9 +5,23 @@ A template to create a `LoginPlugin` for use during a `login` call within the `@
 ## Usage
 
 -   [Use this as a template.](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
--   Write your plugin's logic.
+-   Write your plugin's logic. For more information on how to do this, see the [Wharf Login Plugin Documentation](https://wharfkit.com/docs/session-kit/plugin-login)
 -   Publish it on Github or npmjs.com
--   Include it in your project and use it.
+-   Include it in your Wharf project and use it:
+    
+```ts
+    import { SessionKit } from "@wharfkit/session";
+    import { YourLoginPlugin } from "your-login-plugin";
+
+    const sessionKit = new SessionKit(
+        {
+            // ...arguments
+        },
+        {
+            loginPlugins: [new YourLoginPlugin()],
+        }
+    );
+```
 
 ## Developing
 
